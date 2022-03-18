@@ -1,0 +1,51 @@
+doubleAddition (33,25);
+
+116
+
+let friends = ["Sarah", "Greg", "Cindy", "Jeff"];
+
+undefined
+
+function listLoop(userList) {
+   for (var i = 0; i < userList.length; i++) {
+     console.log(userList[i]);
+   }
+}
+
+undefined
+
+listloop(friends);
+
+VM435:1 Uncaught ReferenceError: listloop is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM435:1
+listLoop(friends);
+VM375:3 Sarah
+VM375:3 Greg
+VM375:3 Cindy
+VM375:3 Jeff
+
+undefined
+
+let vegetables = ["Carrots", "Peas", "Lettuce", "Tomatoes"];
+
+undefined
+
+for (var i = 0; i < vegetables.length; i++) {
+    console.log("I love " + vegetables[i]);
+}
+
+VM517:2 I love Carrots
+VM517:2 I love Peas
+VM517:2 I love Lettuce
+VM517:2 I love Tomatoes
+undefined
+for (var i = 0; i < 5; i++) {
+   console.log("I am " + i);
+}
+VM521:2 I am 0
+VM521:2 I am 1
+VM521:2 I am 2
+VM521:2 I am 3
+VM521:2 I am 4
+undefined
